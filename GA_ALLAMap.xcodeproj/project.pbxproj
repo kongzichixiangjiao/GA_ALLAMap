@@ -14,6 +14,21 @@
 		DC2B87341D5192FF00911761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2B87321D5192FF00911761 /* LaunchScreen.storyboard */; };
 		DC2B873F1D51930000911761 /* GA_ALLAMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B873E1D51930000911761 /* GA_ALLAMapTests.swift */; };
 		DC2B874A1D51930000911761 /* GA_ALLAMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B87491D51930000911761 /* GA_ALLAMapUITests.swift */; };
+		DC2B87581D51938000911761 /* theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B87571D51938000911761 /* theme.swift */; };
+		DC2B875D1D51977500911761 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2B875A1D51977500911761 /* AMapFoundationKit.framework */; };
+		DC2B875E1D51977500911761 /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2B875B1D51977500911761 /* AMapLocationKit.framework */; };
+		DC2B875F1D51977500911761 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2B875C1D51977500911761 /* MAMapKit.framework */; };
+		DC2B87611D51981A00911761 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2B87601D51981A00911761 /* libz.tbd */; };
+		DC2B87631D51982800911761 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2B87621D51982800911761 /* libc++.tbd */; };
+		DC2B87651D51983200911761 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2B87641D51983200911761 /* libstdc++.6.0.9.tbd */; };
+		DC2B87671D51994A00911761 /* GA_AMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B87661D51994A00911761 /* GA_AMapView.swift */; };
+		DC2B876F1D51A25D00911761 /* GA_LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B876E1D51A25D00911761 /* GA_LocationManager.swift */; };
+		DC2B87721D51BB4900911761 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2B87711D51BB4900911761 /* CoreTelephony.framework */; };
+		DC2B87741D51BB5200911761 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2B87731D51BB5200911761 /* SystemConfiguration.framework */; };
+		DC2B87761D51D74600911761 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC2B87751D51D74600911761 /* AMap.bundle */; };
+		DC66027F1D5343D9002C2700 /* GA_AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC66027D1D5343D9002C2700 /* GA_AnnotationView.swift */; };
+		DC6602801D5343D9002C2700 /* GA_CalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC66027E1D5343D9002C2700 /* GA_CalloutView.swift */; };
+		DCB7BAFC1D542CDB00F61B16 /* GA_CustomAMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB7BAFB1D542CDB00F61B16 /* GA_CustomAMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,22 @@
 		DC2B87451D51930000911761 /* GA_ALLAMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_ALLAMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2B87491D51930000911761 /* GA_ALLAMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_ALLAMapUITests.swift; sourceTree = "<group>"; };
 		DC2B874B1D51930000911761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2B87571D51938000911761 /* theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = theme.swift; sourceTree = "<group>"; };
+		DC2B875A1D51977500911761 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		DC2B875B1D51977500911761 /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
+		DC2B875C1D51977500911761 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		DC2B87601D51981A00911761 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DC2B87621D51982800911761 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		DC2B87641D51983200911761 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		DC2B87661D51994A00911761 /* GA_AMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_AMapView.swift; sourceTree = "<group>"; };
+		DC2B876E1D51A25D00911761 /* GA_LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_LocationManager.swift; sourceTree = "<group>"; };
+		DC2B87701D51A54700911761 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		DC2B87711D51BB4900911761 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DC2B87731D51BB5200911761 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DC2B87751D51D74600911761 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		DC66027D1D5343D9002C2700 /* GA_AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_AnnotationView.swift; sourceTree = "<group>"; };
+		DC66027E1D5343D9002C2700 /* GA_CalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_CalloutView.swift; sourceTree = "<group>"; };
+		DCB7BAFB1D542CDB00F61B16 /* GA_CustomAMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_CustomAMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +85,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC2B87741D51BB5200911761 /* SystemConfiguration.framework in Frameworks */,
+				DC2B87721D51BB4900911761 /* CoreTelephony.framework in Frameworks */,
+				DC2B87651D51983200911761 /* libstdc++.6.0.9.tbd in Frameworks */,
+				DC2B87631D51982800911761 /* libc++.tbd in Frameworks */,
+				DC2B87611D51981A00911761 /* libz.tbd in Frameworks */,
+				DC2B875F1D51977500911761 /* MAMapKit.framework in Frameworks */,
+				DC2B875D1D51977500911761 /* AMapFoundationKit.framework in Frameworks */,
+				DC2B875E1D51977500911761 /* AMapLocationKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +136,16 @@
 		DC2B87281D5192FF00911761 /* GA_ALLAMap */ = {
 			isa = PBXGroup;
 			children = (
+				DC66027C1D5343D9002C2700 /* AnnotationView */,
+				DC2B87591D51977500911761 /* Extern */,
 				DC2B87291D5192FF00911761 /* AppDelegate.swift */,
 				DC2B872B1D5192FF00911761 /* ViewController.swift */,
+				DC2B87661D51994A00911761 /* GA_AMapView.swift */,
+				DCB7BAFB1D542CDB00F61B16 /* GA_CustomAMapView.swift */,
+				DC2B876E1D51A25D00911761 /* GA_LocationManager.swift */,
+				DC2B87571D51938000911761 /* theme.swift */,
 				DC2B872D1D5192FF00911761 /* Main.storyboard */,
+				DC2B87701D51A54700911761 /* Header.h */,
 				DC2B87301D5192FF00911761 /* Assets.xcassets */,
 				DC2B87321D5192FF00911761 /* LaunchScreen.storyboard */,
 				DC2B87351D5192FF00911761 /* Info.plist */,
@@ -123,6 +169,31 @@
 				DC2B874B1D51930000911761 /* Info.plist */,
 			);
 			path = GA_ALLAMapUITests;
+			sourceTree = "<group>";
+		};
+		DC2B87591D51977500911761 /* Extern */ = {
+			isa = PBXGroup;
+			children = (
+				DC2B87731D51BB5200911761 /* SystemConfiguration.framework */,
+				DC2B87711D51BB4900911761 /* CoreTelephony.framework */,
+				DC2B87641D51983200911761 /* libstdc++.6.0.9.tbd */,
+				DC2B87621D51982800911761 /* libc++.tbd */,
+				DC2B87601D51981A00911761 /* libz.tbd */,
+				DC2B87751D51D74600911761 /* AMap.bundle */,
+				DC2B875A1D51977500911761 /* AMapFoundationKit.framework */,
+				DC2B875B1D51977500911761 /* AMapLocationKit.framework */,
+				DC2B875C1D51977500911761 /* MAMapKit.framework */,
+			);
+			path = Extern;
+			sourceTree = "<group>";
+		};
+		DC66027C1D5343D9002C2700 /* AnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				DC66027D1D5343D9002C2700 /* GA_AnnotationView.swift */,
+				DC66027E1D5343D9002C2700 /* GA_CalloutView.swift */,
+			);
+			path = AnnotationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +302,7 @@
 			files = (
 				DC2B87341D5192FF00911761 /* LaunchScreen.storyboard in Resources */,
 				DC2B87311D5192FF00911761 /* Assets.xcassets in Resources */,
+				DC2B87761D51D74600911761 /* AMap.bundle in Resources */,
 				DC2B872F1D5192FF00911761 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +329,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC2B872C1D5192FF00911761 /* ViewController.swift in Sources */,
+				DC2B87671D51994A00911761 /* GA_AMapView.swift in Sources */,
+				DC2B87581D51938000911761 /* theme.swift in Sources */,
+				DC6602801D5343D9002C2700 /* GA_CalloutView.swift in Sources */,
+				DC2B876F1D51A25D00911761 /* GA_LocationManager.swift in Sources */,
+				DC66027F1D5343D9002C2700 /* GA_AnnotationView.swift in Sources */,
 				DC2B872A1D5192FF00911761 /* AppDelegate.swift in Sources */,
+				DCB7BAFC1D542CDB00F61B16 /* GA_CustomAMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +477,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GA_ALLAMap/Extern",
+				);
 				INFOPLIST_FILE = GA_ALLAMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-ALLAMap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianan.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/GA_ALLAMap/Header.h";
 			};
 			name = Debug;
 		};
@@ -410,10 +493,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GA_ALLAMap/Extern",
+				);
 				INFOPLIST_FILE = GA_ALLAMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-ALLAMap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianan.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/GA_ALLAMap/Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +570,7 @@
 				DC2B87501D51930000911761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC2B87511D51930000911761 /* Build configuration list for PBXNativeTarget "GA_ALLAMapTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +579,7 @@
 				DC2B87531D51930000911761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC2B87541D51930000911761 /* Build configuration list for PBXNativeTarget "GA_ALLAMapUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +588,7 @@
 				DC2B87561D51930000911761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
